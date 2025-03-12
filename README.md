@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Zaizha Michella!</h1>
 <h3 align="center">I'm an Information Technology student who wants to learn more about technology and has an interest in web design and development</h3>
-<img align="right" alt="Coding" width="400" src="https://id.pinterest.com/pin/291678513386108058/">
+<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzN0YjZ2eHpoOXFlem9kM3V5dG05eWxjd25ldmN5MDNyc3JkeGM3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif">
 
 - 📫 How to reach me **zaizhamichella09@gmail.com**
 
