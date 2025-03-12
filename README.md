@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Zaizha Michella!</h1>
-<h3 align="center">An enthusiastic Information Technology student driven by innovation and problem-solving.</h3>
+<h3 align="center">I'm an Information Technology student who wants to learn more about technology and has an interest in web design and development</h3>
 
 - 📫 How to reach me **zaizhamichella09@gmail.com**
 
