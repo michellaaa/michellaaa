@@ -2,6 +2,10 @@
 <h3 align="center">I'm an Information Technology student who wants to learn more about technology and has an interest in web design and development</h3>
 <img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzN0YjZ2eHpoOXFlem9kM3V5dG05eWxjd25ldmN5MDNyc3JkeGM3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif">
 
+- 🌱 I’m currently learning **Artificial Intelligence, UI/UX**
+
+- 💬 Ask me about **anything—if I know the answer...**
+
 - 📫 How to reach me **zaizhamichella09@gmail.com**
 
 - ⚡ Fun fact **I’m a huge F1 fan, and yes—Ferrari is the only right answer! 🏎️**
