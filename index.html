@@ -3,10 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum Interaksi Manusia dan Komputer</title>
+    <title>Michell | IT Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #d8b4f8;
+            --secondary-color: #6a0dad;
+            --text-color: #333;
+            --bg-color: #f8f8f8;
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #4b0082;
+            --secondary-color: #d8b4f8;
+            --text-color: #f8f8f8;
+            --bg-color: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            text-align: center;
+            scroll-behavior: smooth;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .logo a {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        ul li {
+            margin: 0 15px;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        .toggle-theme {
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+        }
+
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+        }
+
+        .home h1 {
+            font-size: 36px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .home p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            width: 180px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 3px solid var(--primary-color);
+        }
+
+        .action__btns button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .action__btns button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .skills {
+            background: var(--card-bg);
+            padding: 50px 20px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .skills h1 {
+            margin-bottom: 30px;
+        }
+
+        .bubble-container {
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .bubble {
+            padding: 15px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 50px;
+            background-color: var(--primary-color);
+            color: white;
+            display: inline-block;
+            animation: float 3s infinite ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+         /* Interest Section */
+         .interest {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .interest-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .interest-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .interest-card:hover {
+            transform: scale(1.05);
+        }
+
+        .interest-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .interest-card p {
+            font-size: 18px;
+            padding: 10px 0;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is a simple HTML5 page.</p>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#home">Michella's Portfolio</a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interest">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="ri-moon-fill toggle-theme" onclick="toggleTheme()"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <h1>Hey there! Get to know <span>Michell</span> 👩🏻‍💻✨</h1>
+        <p>Welcome to my page! </p>
+        <div class="image">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzN0YjZ2eHpoOXFlem9kM3V5dG05eWxjd25ldmN5MDNyc3JkeGM3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif" alt="profile">
+        </div>
+        <div class="action__btns">
+            <button onclick="location.href='#contact'">Reach Me</button>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1>Skills</h1>
+        <div class="bubble-container">
+            <div class="bubble">HTML</div>
+            <div class="bubble">CSS</div>
+            <div class="bubble">JavaScript</div>
+            <div class="bubble">PHP</div>
+            <div class="bubble">Laravel</div>
+            <div class="bubble">React</div>
+            <div class="bubble">MySQL</div>
+        </div>
+    </section>
+
+
+    <!-- Interest Section -->
+    <section id="interest" class="interest">
+        <h1>My Interests</h1>
+        <div class="interest-container">
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/2b/e1/81/2be1813d410b6b70460df43810b2474f.jpg" alt="F1">
+                <p>🏎 Watching F1</p>
+            </div>
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/1a/72/29/1a7229343bf11037c52e4af472e41921.jpg" alt="Movies">
+                <p>🎬 Watching Movies/Series</p>
+            </div>
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/20/3d/f0/203df0475ce8f2726caa24032e6bf87e.jpg" alt="Lego">
+                <p>🧱 Building Lego</p>
+            </div>
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/bf/e4/9e/bfe49e340ed0be3a3536404b2ad1c37f.jpg" alt="Music">
+                <p>🎵 Listening to Music</p>
+            </div>
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/d1/c7/55/d1c7552f47bbfdca2cd9a00cb126ad26.jpg" alt="Blindbox">
+                <p>🎁 Collecting Blindbox Figures</p>
+            </div>
+            <div class="interest-card">
+                <img src="https://i.pinimg.com/736x/56/22/e9/5622e93c70a4b7dec46e4fe64d1a5316.jpg" alt="Sunset">
+                <p>🌅 Chasing Sunsets</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <a href="mailto:zaizhamichella09@gmail.com"><i class="ri-mail-fill"></i> Email Me</a>
+    </section>
+
+    <script>
+        function toggleTheme() {
+            document.body.dataset.theme = document.body.dataset.theme === "dark" ? "light" : "dark";
+        }
+    </script>
 </body>
 </html>
