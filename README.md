@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Zaizha Michella!</h1>
 <h3 align="center">I'm an Information Technology student who wants to learn more about technology and has an interest in web design and development</h3>
+<img align="right" alt="Coding" width="400" src="https://id.pinterest.com/pin/291678513386108058/">
 
 - 📫 How to reach me **zaizhamichella09@gmail.com**
 
