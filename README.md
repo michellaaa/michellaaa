@@ -3,7 +3,7 @@
 
 - 📫 How to reach me **zaizhamichella09@gmail.com**
 
-- ⚡ Fun fact **I'm a huge F1 enthusiast! And my favorite team? Well, let’s just say I bleed Ferrari red and dream in the sound of a V12 engine. Forza Ferrari! 🏎️**
+- ⚡ Fun fact **I’m a huge F1 fan, and yes—Ferrari is the only right answer! 🏎️**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
